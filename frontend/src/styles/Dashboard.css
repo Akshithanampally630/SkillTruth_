@@ -76,3 +76,22 @@ box-shadow:0 6px 20px rgba(0,0,0,0.05);
 .home-btn:hover {
   background-color: #059669;
 }
+.charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.chartCard {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  height: 300px;   /* 🔥 CONTROL HEIGHT */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chartCard canvas {
+  max-height: 250px !important;  /* 🔥 LIMIT CHART SIZE */
+}
