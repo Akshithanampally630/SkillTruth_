@@ -1,0 +1,78 @@
+.dashboard{
+padding:40px;
+background:#f5f7fb;
+min-height:100vh;
+font-family:Inter;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+font-size:15px;
+color:#6b7280;
+}
+
+.card p{
+font-size:28px;
+font-weight:700;
+}
+
+.charts{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.chartCard{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+
+.skills{
+margin-top:30px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.skillBox{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between; /* pushes title left, button right */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #10b981;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: #059669;
+}

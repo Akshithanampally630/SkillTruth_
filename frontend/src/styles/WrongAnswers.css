@@ -1,0 +1,128 @@
+/* Page layout */
+
+.review-container{
+  min-height:100vh;
+  background:#f7f9fc;
+  padding:50px 20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:28px;
+  font-family:"Inter","Segoe UI",sans-serif;
+}
+
+/* Question card */
+
+.review-question{
+  width:850px;
+  max-width:95%;
+  background:white;
+  padding:32px 36px;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+
+/* Question title */
+
+.review-question h3{
+  font-size:18px;
+  color:#374151;
+  margin-bottom:10px;
+}
+
+/* Question text */
+
+.question-text{
+  font-size:16px;
+  line-height:1.6;
+  color:#111827;
+  margin-bottom:16px;
+}
+
+/* Code block */
+
+.code-block{
+  background:#1e1e1e;
+  color:#e5e7eb;
+  padding:14px;
+  border-radius:8px;
+  margin-bottom:18px;
+  font-family:"Fira Code",monospace;
+  font-size:14px;
+  overflow-x:auto;
+}
+
+/* Options container */
+
+.options{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:18px;
+}
+
+/* Option */
+
+.option{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:10px 14px;
+  border-radius:8px;
+  border:1px solid #e5e7eb;
+  background:#fafafa;
+  font-size:15px;
+}
+
+/* Option letter */
+
+.option-letter{
+  font-weight:600;
+  color:#6b7280;
+}
+
+/* Correct option */
+
+.option.correct{
+  background:#ecfdf5;
+  border-color:#10b981;
+  color:#065f46;
+}
+
+/* Wrong selected option */
+
+.option.wrong{
+  background:#fef2f2;
+  border-color:#ef4444;
+  color:#7f1d1d;
+}
+
+/* Explanation box */
+
+.explanation{
+  background:#f3f4f6;
+  border-radius:8px;
+  padding:14px;
+}
+
+.explanation b{
+  display:block;
+  margin-bottom:6px;
+  color:#374151;
+}
+
+.explanation p{
+  margin:0;
+  font-size:15px;
+  line-height:1.5;
+  color:#4b5563;
+}
+
+/* Empty state */
+
+.no-wrong{
+  text-align:center;
+  margin-top:100px;
+  font-size:22px;
+  color:#374151;
+}
